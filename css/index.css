@@ -1,0 +1,94 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-width: 220px;
+}
+
+
+ #head {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+
+ }
+#banner {
+    display:block;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+
+} 
+ nav {
+     background: #333;
+ }  
+
+ 
+ nav ul {
+     list-style-type: none;
+     padding: 0;
+     margin:0;
+ }
+ 
+ nav a {
+     font-family: 'Permanent Marker', cursive;
+     font-size:18px;
+     text-transform: uppercase;
+     text-decoration: none;
+     text-align: center;
+     color: #FEE8DD;
+     display: block;
+     padding: 10px;
+ }
+ 
+ nav a:hover {
+     background: #555;
+ }
+ 
+ @media screen and (min-width: 820px) {
+     
+     nav ul {
+         display: flex;
+     }
+     
+     nav li {
+         flex: 1 1 0;
+     }
+ }
+ 
+ article {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #62533C;
+ }
+ 
+ h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Handlee', cursive;
+     color:#fff;
+     text-align: center;
+     margin-top:0;
+     padding-top: 20px;
+ }
+ 
+ #content {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Handlee', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    font-size: 20px;
+    color:#fff;
+ }
+
+#dog {
+    display: block;
+    margin: 0 2%;
+    max-width: 96%;
+    height: auto;
+
+}
