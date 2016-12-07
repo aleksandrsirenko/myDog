@@ -79,19 +79,23 @@ h1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
     align-content: stretch;
     flex-flow: row wrap;
 }
 
 #text p {
-    margin-top: 10%;
     color: #fff;
     font-size: 20px;
     font-family: 'Alfa Slab One', cursive;
 
 }
-
+#text p:first-child {
+    margin-top: 5%;
+}
+.indent {
+    margin-top: 12%;
+}
 
 #image {
     display: block;
@@ -100,42 +104,4 @@ h1 {
     
 }
 
-@media screen and (max-width: 450px) and (min-width: 397px) {
-    
-    #image {
-        transform: scale(1, 0.9);
-        min-width: 250px;
-    }
-}
-
-@media screen and (max-width: 396px) and (min-width: 350px) {
-    
-    #image {
-        transform: scale(1, 0.75);
-        min-width: 250px;
-    }
-}
-
-@media screen and (max-width: 349px) and (min-width: 320px) {
-    
-    #image {
-        transform: scale(1, 0.7);
-        min-width: 250px;
-    }
-}
-
-@media screen and (max-width: 319px) and (min-width: 300px) {
-    
-    #image {
-        transform: scale(1, 0.65);
-        min-width: 250px;
-    }
-}
-
-@media screen and (max-width: 299px) {
-    
-    #image {
-        transform: scale(1, 0.6);
-    }
-}
 
