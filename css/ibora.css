@@ -102,4 +102,49 @@ h1 {
     height: auto;
 }
 
+.parents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    flex-flow: row wrap;
+}
 
+.child1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+.child2 {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    color:#fff;
+    text-align:center;
+}
+
+#dis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    flex-flow: row wrap;
+    margin-bottom: 0;
+}
+.dis1 {
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.disbot {
+     margin-bottom: 20px;   
+}
+.dis2 {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
