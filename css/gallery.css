@@ -13,27 +13,24 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 500px;
-
- }
+}
  
 #banner {
     display:block;
     max-width: 100%;
     height: auto;
     max-height: 500px;
-
 }
 
 nav {
-     background: #333;
- }  
+    background: #333;
+}  
 
- 
 nav ul {
-     list-style-type: none;
-     padding: 0;
-     margin:0;
- }
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
  
 nav a {
     font-family: 'Permanent Marker', cursive;
@@ -47,29 +44,40 @@ nav a {
  }
  
 nav a:hover {
-     background: #555;
- }
+    background: #555;
+    text-decoration: none;
+    color: #FEE8DD;
+}
  
- @media screen and (min-width: 820px) {
-     
+@media screen and (min-width: 820px) {
     nav ul {
-         display: flex;
-     }
-     
+        display: flex;
+    }
+    
     nav li {
-         flex: 1 1 0;
-     }
- }
+        flex: 1 1 0;
+    }
+}
  
  article {
-     width:100%;
-     max-width:1000px;
-     background-color:#62533C;;
+    width:100%;
+    max-width:1000px;
+    background-color:#62533C;;
  }
  
- h1 {
+h2 {
     color:#fff;
     margin-top: 0;
     padding-top: 20px;
     text-align:center;
+    margin-bottom: 3%;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 800px;
+}
+
+#myCarousel {
+    margin: 0 auto;
 }

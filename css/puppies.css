@@ -13,7 +13,6 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 500px;
-
  }
  
 #banner {
@@ -21,18 +20,16 @@ body {
     max-width: 100%;
     height: auto;
     max-height: 500px;
-
 }
 
 nav {
-     background: #333;
+    background: #333;
  }  
 
- 
 nav ul {
-     list-style-type: none;
-     padding: 0;
-     margin:0;
+    list-style-type: none;
+    padding: 0;
+    margin:0;
  }
  
 nav a {
@@ -47,29 +44,66 @@ nav a {
  }
  
 nav a:hover {
-     background: #555;
+    background: #555;
+    text-decoration: none;
+    color: #FEE8DD;
  }
  
  @media screen and (min-width: 820px) {
      
     nav ul {
-         display: flex;
+        display: flex;
      }
      
     nav li {
-         flex: 1 1 0;
+        flex: 1 1 0;
      }
  }
  
  article {
-     width:100%;
-     max-width:1000px;
-     background-color:#62533C;;
+    width:100%;
+    max-width:1000px;
+    background-color:#62533C;
  }
  
- h1 {
+#family {
+    text-align: center;
+    color: #fff;
+    font-size:18px;
+}
+
+h2 {
     color:#fff;
     margin-top: 0;
     padding-top: 20px;
     text-align:center;
+    margin-bottom: 3%;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 500px;
+}
+
+#myCarousel, #myCarousel2, #myCarousel3 {
+    margin: 0 auto;
+}
+
+.carousel-caption h2 {
+    color: #3B2CE2;
+    font-weight: bold;
+}
+
+.carousel-caption h3 {
+    color: #E22C38;
+    font-weight: bold;
+}
+
+#girl h3 {
+    color:#fff;
+    text-align: center;
+}
+
+#glor {
+    margin-bottom: 3%;
 }
