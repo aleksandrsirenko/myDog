@@ -147,3 +147,17 @@ h2 {
     max-width: 100%;
     height: auto;
 }
+a {
+    text-decoration: none;
+}
+.fa-chevron-circle-up {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 50%;
+}
+
+.fa-chevron-circle-up:hover {
+    color: #333;
+    transform: scale(1.5);
+}
